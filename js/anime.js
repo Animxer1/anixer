@@ -6,7 +6,7 @@ const recommendationsapi = "/recommendations/";
 
 // Api Server Manager
 
-const AvailableServers = ["https://animedex-api.animxersite.workers.dev"];
+const AvailableServers = ["https://animedex-api.animxersite.workers.dev",];
 
 function getApiServer() {
     return AvailableServers[Math.floor(Math.random() * AvailableServers.length)];
